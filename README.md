@@ -12,9 +12,9 @@ groupe:
 
 Installation Wordpress
 
-réseau FTP Hostinger: Justine Lebègue
-Filezilla et création de la base de données sur Hostinger: Amélie Laoût
-Wordpress: Justine Lebègue
+- réseau FTP Hostinger: Justine Lebègue
+- Filezilla et création de la base de données sur Hostinger: Amélie Laoût
+- Wordpress: Justine Lebègue
 
 
 Répartition des tâches:
