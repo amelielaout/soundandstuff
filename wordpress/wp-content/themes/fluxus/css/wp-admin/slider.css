@@ -1,0 +1,229 @@
+
+#slides {
+    margin: 15px 0;
+}
+
+#slides .col-media {
+    width: 130px;
+}
+
+#slides .col-title {
+    width: 250px;
+}
+
+#slides td {
+    vertical-align: middle;
+}
+
+#slides .title-empty {
+    color: #999;
+    display: none;
+}
+
+#slides .slide-title-empty .title-empty {
+    display: block;
+}
+
+#slides .slide-order {
+    width: 30px;
+}
+
+/**
+ * TODO: remove;
+ */
+.slide-move {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../../images/wp-admin/move.png);
+    position: relative;
+    top: 3px;
+    left: 5px;
+    cursor: move;
+}
+
+#slides .show-toggle {
+    text-decoration: underline;
+}
+
+/**
+* Table row used for editing slide.
+*/
+
+#slides .wrap-details {
+    background: #fff;
+}
+
+#slides .details {
+    display: none;
+    padding: 10px 0;
+}
+
+    #slides .details td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    #slides .field {
+        padding: 0 0 5px;
+        clear: both;
+    }
+
+    #slides .field label {
+        float: left;
+        width: 130px;
+        padding: 5px;
+    }
+
+    #slides .field .input-text {
+        width: 300px;
+    }
+
+    #slides .field i {
+        color: #999;
+    }
+
+    #slides .field textarea {
+        width: 300px;
+    }
+
+    #slides .field select {
+        width: 180px;
+    }
+
+    #slides .saving-status,
+    #slides .field .button {
+        position: relative;
+        top: 3px;
+    }
+
+    #slides .saving-status {
+        padding: 0 0 0 10px;
+        font-weight: bold;
+    }
+
+    #slides .saving-status.ok {
+        color: #090;
+    }
+
+    #slides .saving-status.failed {
+        color: #E23D25;
+    }
+
+    #slides .wrap-slide-status {
+        font-size: 11px;
+    }
+
+    #slides .slide-status-published,
+    #slides .slide-status-unpublished {
+        display: none;
+    }
+
+    #slides .slide-status-unpublished {
+        color: #ccc;
+    }
+
+    #slides .slide-status-published {
+        color: #090;
+    }
+
+    #slides .slide-published .slide-status-published {
+        display: block;
+    }
+
+    #slides .slide-unpublished .slide-status-unpublished {
+        display: block;
+    }
+
+#fluxus-slider-tab {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#fluxus-slider-tab form {
+    margin: 0;
+}
+
+#fluxus-slider-tab .slides-container {
+    bottom: 0;
+    left: 16px;
+    overflow: auto;
+    position: absolute;
+    right: 300px;
+    top: 0;
+    padding-right: 15px;
+}
+
+#fluxus-slider-tab .fluxus-slider-sidebar {
+    background: #F5F5F5;
+    border-left: 1px solid #DFDFDF;
+    bottom: 0;
+    overflow: auto;
+    padding: 0 16px 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 267px;
+    z-index: 75;
+}
+
+#fluxus-slider-tab .fluxus-slider-sidebar h3 {
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 24px 0 8px;
+    position: relative;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-transform: uppercase;
+}
+
+#fluxus-slider-tab .fluxus-slider-settings {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+#fluxus-slider-tab .setting {
+    display: block;
+    float: left;
+    margin: 1px 0;
+    width: 100%;
+}
+
+#fluxus-slider-tab .setting span {
+    color: #999;
+    float: left;
+    font-weight: normal;
+    line-height: 16px;
+    min-height: 22px;
+    padding-top: 8px;
+    text-align: right;
+    text-shadow: 0 1px 0 #FFFFFF;
+    font-size: 12px;
+    margin-right: 4%;
+    width: 30%;
+}
+
+#fluxus-slider-tab .setting input[type="text"] {
+    float: right;
+    width: 65%;
+    line-height: 16px;
+    padding: 6px 8px;
+}
+
+#fluxus-slider-tab .setting input[type="checkbox"] {
+    float: left;
+    margin: 8px 0 -8px;
+}
+
+#fluxus-slider-tab .set-infobox-position {
+    text-decoration: underline;
+}
+
+.attachment-fluxus-slider-admin-thumbnail {
+    width: 120px;
+    height: 90px;
+}

@@ -1,0 +1,1193 @@
+/**
+ * ------------------------------------------------------------------------
+ * File for all responsive style adjustments.
+ * ------------------------------------------------------------------------
+ */
+
+
+
+/**
+ * Big screen
+ * ------------------------------------------------------------------------
+ * Increase sizes where appropiate.
+ */
+@media screen and (min-width: 1440px) {
+
+    /**
+     * Infobox styles
+     */
+
+    .slide .style-default {
+        width: 400px;
+    }
+
+    .slide .style-default .slide-title {
+        font-size: 60px;
+    }
+
+    .slide .style-default .slide-subtitle {
+        font-size: 18px;
+    }
+
+    .slide .style-default .description {
+        font-size: 16px;
+    }
+
+
+}
+
+/**
+ * Fix the width on screens greater than 1280px.
+ */
+@media screen and (min-width: 1280px) {
+
+    .page-template-template-full-width-php .site {
+        width: 1021px;
+    }
+
+}
+
+/**
+ * Fix the width on the pages with sidebar, when
+ * screen is greater than 1920px.
+ */
+@media screen and (min-width: 1920px) {
+
+    .page-template-template-full-width-php .site {
+        width: 961px;
+    }
+
+}
+
+
+/**
+ * Small screen
+ * ------------------------------------------------------------------------
+ * Make everything a bit smaller.
+ */
+@media screen and (max-width: 1024px) {
+
+    /**
+     * Smaller space for logo and sidebar.
+     */
+    #header hgroup {
+        width: 200px;
+    }
+
+    .sidebar {
+        width: 160px;
+        margin-left: -233px;
+    }
+
+    .site-with-sidebar {
+        padding: 0 35px 0 268px;
+    }
+
+    .nav-tip {
+        display: none !important;
+    }
+
+
+    /**
+     * Contract main navigation.
+     */
+    .site-navigation a {
+        font-size: 12px;
+    }
+
+    .site-navigation li {
+        margin-right: 10px;
+    }
+
+    .primary-navigation {
+        padding-left: 261px;
+    }
+
+
+    /**
+     * Page: Full width
+     */
+    .page-template-template-full-width-php .site {
+        width: auto;
+        margin: 0 15px;
+    }
+
+
+    /**
+     * Page: Full page slider
+     */
+    .slider .info[style],
+    .slider-arrow-right,
+    .slider-arrow-left {
+        opacity: 1;
+    }
+
+    .slider .info {
+        width: 280px;
+    }
+
+    .slide .style-page-with-background .entry-title,
+    .slide .style-default .slide-title {
+        font-size: 30px;
+    }
+
+    .slide .style-page-with-background .entry-content {
+        font-size: 13px;
+    }
+
+
+    /**
+     * Content.
+     */
+    .button,
+    .entry-content .button,
+    .project .hover-box .button {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 11px;
+    }
+
+    .button-big,
+    .entry-content .button-big {
+        line-height: 38px;
+        font-size: 13px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .widget {
+        margin: 0 0 20px;
+        font-size: 12px;
+    }
+
+    .widget a {
+        padding-bottom: 1px;
+        font-size: 12px;
+    }
+
+    .widget-content,
+    .textwidget p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .sidebar .title {
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+
+    .sidebar .subtitle {
+        font-size: 13px;
+    }
+
+    /* Disable pushed aside content. */
+    .aside-content {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+        padding: 0 0 10px 20px;
+    }
+
+    .aside-content .position-absolute {
+        position: static;
+    }
+
+    /* Make content full width without margins. */
+    .site-content .entry-content,
+    .single-format-link .entry-header,
+    .single-format-quote .entry-header,
+    #comments {
+        width: 100%;
+    }
+
+    .comment-content,
+    .comment-author {
+        width: auto;
+    }
+
+    .wp-caption .wp-caption-text {
+        width: 100%;
+        position: static;
+        margin: 0;
+        border: 0 none;
+    }
+
+    .ipad-ios4 #fluxus-customize {
+        display: none !important;
+    }
+
+}
+
+
+
+/**
+ * General iPad layout.
+ * ------------------------------------------------------------------------
+ * Display mobile navigation.
+ */
+@media screen and (max-width: 768px) {
+
+    /**
+     * Show mobile navigation.
+     */
+    #mobilenav .btn-open {
+        right: -50px;
+    }
+
+    .site-navigation {
+        display: none !important;
+    }
+
+
+    /**
+     * Change header layout.
+     */
+    #header hgroup {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border: 0 none;
+    }
+
+    #footer .footer-inner {
+        padding: 16px 20px;
+    }
+
+
+    /**
+     * Change horizontal layout into vertical.
+     */
+    html.horizontal-page {
+        overflow-x: auto;
+        overflow-y: scroll;
+    }
+
+    html.no-scroll {
+        overflow-y: hidden;
+    }
+
+    html.horizontal-page body {
+        overflow: visible;
+    }
+
+    .horizontal-page .horizontal-content .horizontal-item,
+    .horizontal-page .horizontal-content .horizontal-item[style] {
+        margin: 0 0 20px;
+        display: block;
+        height: auto !important;
+    }
+
+    .horizontal-page .scroll-container .overview {
+        position: static;
+    }
+
+    .site-with-sidebar .site-content {
+        float: none;
+    }
+
+
+    /**
+     * Make page with sidebar full-width,
+     * put sidebar at the end of the page.
+     */
+    .site-with-sidebar {
+        padding: 0;
+        margin: 0 10px;
+    }
+
+    .sidebar {
+        width: 100%;
+        border: 1px solid #eaeaea;
+        padding: 0;
+        margin: 30px 0 0;
+        overflow: hidden;
+        float: none;
+    }
+
+    .sidebar .widget {
+        float: left;
+        padding: 10px 20px;
+        margin: 0 0 10px;
+        text-align: left;
+    }
+
+    .sidebar .widget-title,
+    .sidebar .subtitle,
+    .sidebar .title,
+    .sidebar .title {
+        text-align: left;
+    }
+
+    .sidebar .search-results-hgroup,
+    .sidebar .archive-results-hgroup {
+        padding: 20px 20px 0;
+    }
+
+    .sidebar .decoration {
+        display: none;
+    }
+
+    .sidebar #s {
+        margin: 6px 0 0 0;
+    }
+
+    #fluxus-customize {
+        display: none !important;
+    }
+
+
+    /**
+     * Page: Blog
+     * ------------------------------------------------------------------------
+     * Change layout into vertical.
+     */
+    .horizontal-posts #footer {
+        position: absolute;
+        bottom: auto;
+    }
+
+    .horizontal-posts #footer-push {
+        display: block;
+    }
+
+    .horizontal-posts #header {
+        position: static;
+    }
+
+    .horizontal-posts .site,
+    .horizontal-posts .site[style] {
+        height: auto !important;
+        top: 0 !important;
+    }
+
+    .horizontal-posts .post {
+        margin: 0;
+        padding: 0 0 30px;
+        border-bottom: 2px solid #111;
+        width: 100%;
+        height: auto;
+    }
+
+    .horizontal-posts .post[style] {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .horizontal-posts .resizable,
+    .horizontal-posts .resizable[style] {
+        height: auto !important;
+        width: 100% !important;
+        max-height: 100% !important;
+    }
+
+    .horizontal-posts .post-link[style],
+    .horizontal-posts .post-link {
+        padding: 50px 0;
+        height: auto !important;
+    }
+
+    .horizontal-posts .wrap-quote {
+        padding: 50px 0;
+        font-size: 16px;
+    }
+
+    .horizontal-posts .navigation-paging {
+        margin: 0;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .horizontal-posts .wrap-quote .js-vertical-center,
+    .horizontal-posts .wrap-quote .js-vertical-center[style],
+    .horizontal-posts .navigation-paging .js-vertical-center,
+    .horizontal-posts .navigation-paging .js-vertical-center[style],
+    .horizontal-posts .post .post-link .js-vertical-center,
+    .horizontal-posts .post .post-link .js-vertical-center[style] {
+        top: 0 !important;
+        position: relative;
+    }
+
+    .horizontal-posts .navigation-paging .js-vertical-center {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .horizontal-posts .navigation-paging .button-minimal {
+        margin-bottom: 10px;
+    }
+
+    .entry-navigation .post-navigation {
+        float: none;
+        border: 0 none;
+        padding-left: 0;
+        overflow: hidden;
+    }
+
+    .entry-navigation .entry-tags {
+        float: none;
+    }
+
+    .entry-navigation .post-navigation .nav-next {
+        float: left;
+    }
+
+    .post-navigation a {
+        width: auto;
+    }
+
+    .post-navigation a h2 {
+        display: none;
+    }
+
+    .post-navigation a span {
+        border-bottom: 1px solid #eaeaea;
+        padding: 0 0 1px 0;
+    }
+
+    .post-image .cover p {
+        font-size: 13px;
+    }
+
+
+    /**
+     * Page: Portfolio horizontal
+     */
+    .single-fluxus_portfolio #footer,
+    .tax-fluxus-project-type #footer,
+    .page-template-template-portfolio-php #footer {
+        position: absolute;
+        bottom: auto;
+    }
+
+    .single-fluxus_portfolio #footer-push,
+    .tax-fluxus-project-type #footer-push,
+    .page-template-template-portfolio-php #footer-push {
+        display: block;
+    }
+
+    .single-fluxus_portfolio #header,
+    .tax-fluxus-project-type #header,
+    .page-template-template-portfolio-php #header {
+        position: static;
+    }
+
+    .single-fluxus_portfolio .site,
+    .single-fluxus_portfolio .site[style],
+    .tax-fluxus-project-type .site,
+    .tax-fluxus-project-type .site[style],
+    .page-template-template-portfolio-php .site,
+    .page-template-template-portfolio-php .site[style] {
+        height: auto !important;
+        top: 0 !important;
+    }
+
+    .single-fluxus_portfolio[style] {
+        width: 100% !important;
+    }
+
+    .project .preview,
+    .project .preview[style] {
+        height: auto !important;
+    }
+
+    .project .featured-image,
+    .project .featured-image[style] {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .portfolio-single .wrap-image a,
+    .portfolio-single .wrap-image img {
+        display: block;
+    }
+
+    .portfolio-list h2 {
+        font-size: 16px;
+    }
+
+    .project .info {
+        border-bottom: 2px solid #111;
+        margin: 0 0 30px 0;
+        padding: 15px 0;
+    }
+
+    .portfolio-navigation {
+        width: 100%;
+        display: block;
+    }
+
+    .portfolio-navigation header {
+        padding: 20px 10px;
+    }
+
+    .feedback-buttons {
+        padding: 10px 0;
+    }
+
+    .portfolio-navigation .navigation {
+        position: relative;
+        padding: 20px;
+    }
+
+    .portfolio-navigation .other-projects a {
+        width: 22%;
+        max-width: 90px;
+        height: 70px;
+        margin: 0 4% 4% 0;
+    }
+
+    .portfolio-navigation .other-projects .hover {
+        padding: 25px 0 0 0;
+    }
+
+    .portfolio-navigation .btn-appreciate {
+        margin-left: 10px;
+    }
+
+    .single-fluxus_portfolio .sidebar {
+        height: auto;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 10px 0 0 0;
+        float: none;
+    }
+
+    .single-fluxus_portfolio .sidebar .title {
+        text-align: left;
+    }
+
+    .single-fluxus_portfolio .sidebar .subtitle {
+        text-align: left;
+        color: #999;
+    }
+
+    .single-fluxus_portfolio .sidebar .widget {
+        padding: 0;
+        float: none;
+    }
+
+
+    /**
+     * Page: Full Page Slider
+     */
+    .slide .style-default .slide-title {
+        margin: 0 0 25px;
+    }
+
+    .slide .style-page-with-background .entry-title,
+    .slide .style-default .slide-title {
+        font-size: 24px;
+    }
+
+    .slide .style-default .slide-subtitle {
+        font-size: 12px;
+        margin: 0 0 5px;
+    }
+
+    .slider .slide .info .decoration {
+        margin-top: -11px;
+    }
+
+    .slide .style-default .description {
+        font-size: 12px;
+    }
+
+    .slider .info {
+        width: 240px;
+    }
+
+    .slide .style-default .button,
+    .slide .style-page-with-background .button {
+        line-height: 26px;
+        padding: 0 10px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .slider-arrow-right,
+    .slider-arrow-left {
+        height: 42px;
+        width: 34px;
+        margin-top: -21px;
+        background-size: cover;
+        left: 10px;
+    }
+
+    .slider-arrow-right {
+        left: auto;
+        right: 10px;
+    }
+
+    .slider-navigation a span {
+        display: none !important;
+    }
+
+    .slider-navigation a {
+        width: 5px;
+        height: 5px;
+        border-width: 1px;
+    }
+
+
+    /**
+     * Page: Grid Portfolio
+     */
+    .layout-portfolio-grid #footer {
+        position: absolute;
+        bottom: auto;
+    }
+
+    .layout-portfolio-grid #footer-push {
+        display: block;
+    }
+
+    .layout-portfolio-grid #header {
+        position: static;
+    }
+
+    .layout-portfolio-grid .site,
+    .layout-portfolio-grid .site[style] {
+        height: auto !important;
+        top: 0 !important;
+    }
+
+    .portfolio-grid,
+    .portfolio-grid[style] {
+        width: 100% !important;
+    }
+
+    .portfolio-grid .grid-project,
+    .portfolio-grid .grid-project[style] {
+        width: 50% !important;
+        height: 280px !important;
+        padding: 0 20px 20px 0;
+        float: left;
+        position: static;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    }
+
+    .grid-project[style]:last-child {
+        padding-right: 0 !important;
+    }
+
+    .portfolio-grid .grid-project:nth-child(even) {
+        padding-right: 0;
+    }
+
+    .portfolio-grid .grid-project .hover-box {
+        display: block;
+        opacity: 1;
+        height: auto;
+        box-shadow: none;
+        bottom: 0;
+    }
+
+    .portfolio-grid .grid-project .hover-box .inner[style] {
+        position: static !important;
+    }
+
+    .portfolio-grid .grid-project .hover-box i {
+        display: none;
+    }
+
+    .grid-project .preview[style] {
+        height: 100% !important;
+        box-shadow: none;
+    }
+
+    .grid-project .hover-box b {
+        font-weight: normal;
+        line-height: 17px;
+        padding: 3px 0 5px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+/**
+ * General iPhone layout.
+ * ------------------------------------------------------------------------
+ * Turn horizontal layout into vertical.
+ * Disable unnecessary elements.
+ */
+@media screen and (max-width: 480px) {
+
+    .horizontal-page #header {
+        position: static;
+        padding: 0 0 15px 0;
+    }
+
+    /**
+     * Footer
+     */
+    .horizontal-page #footer {
+        position: absolute;
+        bottom: auto;
+    }
+
+    .horizontal-page #footer-push {
+        display: block;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #footer .footer-inner {
+        padding: 60px 20px 20px;
+        position: relative;
+    }
+
+    #footer .footer-inner:before {
+        content: ' ';
+        position: absolute;
+        width: 20px;
+        margin: 32px 0 0 -10px;
+        border-top: 2px solid #111;
+        height: 1px;
+        left: 50%;
+        top: 0;
+    }
+
+    #sharrre-footer {
+        float: none;
+        display: inline-block;
+        margin: 0 0 10px;
+        height: 21px;
+    }
+
+    #sharrre-footer[style] {
+        display: inline-block !important;
+    }
+
+    #footer .social-networks {
+        float: none;
+        display: block;
+        text-align: center
+    }
+
+    #footer .social-networks .icon-social {
+        float: none;
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #footer .footer-links {
+        float: none;
+    }
+
+    #footer .footer-navigation {
+        float: none;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    #footer .footer-navigation li {
+        margin: 0 5px;
+        display: inline-block;
+        float: none;
+    }
+
+    #footer .footer-links .credits {
+        float: none;
+        font-size: 11px;
+        padding: 5px 0;
+        color: #ccc;
+        margin: 0;
+    }
+
+    .footer-links .credits:before,
+    .footer-navigation li:before {
+        display: none;
+    }
+
+
+    /**
+     * Hide footer in Full Page Slider, Page With Background and 404.
+     */
+    .page-template-template-full-page-slider-php #page-wrapper,
+    .page-template-template-full-page-slider-php #main,
+    .page-template-template-contacts-php #page-wrapper,
+    .page-template-template-contacts-php #main,
+    .page-template-template-background-php #page-wrapper,
+    .page-template-template-background-php #main,
+    body.error404 #main,
+    body.error404 #page-wrapper {
+        margin: 0;
+    }
+
+    .page-template-template-full-page-slider-php #footer,
+    .page-template-template-full-page-slider-php #footer-push,
+    .page-template-template-contacts-php #footer,
+    .page-template-template-contacts-php #footer-push,
+    .page-template-template-background-php #footer,
+    .page-template-template-background-php #footer-push,
+    body.error404 #footer,
+    body.error404 #footer-push {
+        display: none;
+    }
+
+
+    /**
+     * Page: Full Page Slider
+     */
+    .page-template-template-full-page-slider-php #main {
+        overflow: hidden;
+    }
+
+    .slider .slide .info {
+        padding: 0 30px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    }
+
+    .slider .slide .info .viewport {
+        padding: 20px 0;
+    }
+
+    .slider .slide .info.white {
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .slider .slide .info[style] {
+        left: 0 !important;
+    }
+
+    .slide .style-default .slide-title {
+        font-size: 30px;
+    }
+
+    .slider .slide .info .description {
+        line-height: 21px;
+    }
+
+
+    /**
+     * Page: Portfolio
+     */
+    .project .hover-box .excerpt,
+    .project .hover-box .decoration {
+        display: none;
+    }
+
+    .project .hover-box h2 {
+        padding-bottom: 10px;
+    }
+
+    .project .hover-box h2 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .project .hover-box .subtitle {
+        font-size: 13px;
+    }
+
+
+    /**
+     * Page: Grid Portfolio.
+     */
+    .portfolio-grid .grid-project,
+    .portfolio-grid .grid-project[style] {
+        height: 150px !important;
+        padding: 0 15px 15px 0;
+    }
+
+
+    /**
+     * Page: 404
+     */
+    .site .error404 {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 10px;
+    }
+
+    .site .error404 h1 {
+        font-size: 21px;
+    }
+
+    .site .error404 .entry-content p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+
+    /**
+     * Page: Contacts
+     */
+    .page-contacts .site-content .page[style],
+    .page-contacts .site-content .page {
+        top: 0 !important;
+        width: auto;
+        height: 100%;
+    }
+
+    .map-active #map {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .map-active #mobilenav .btn-open {
+        right: 0;
+    }
+
+    #map {
+        visibility: hidden;
+    }
+
+    .map-active #map {
+        visibility: visible;
+    }
+
+    .reveal-modal {
+        width: 100%;
+        margin: 0;
+        left: 0;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+    }
+
+    .wpcf7-form .wpcf7-form-control-wrap input[type="text"] {
+        width: 100%;
+    }
+
+
+    /**
+     * Page: Blog.
+     */
+    .post-image .cover h1 {
+        font-size: 21px;
+    }
+
+    .post-image .cover p {
+        font-size: 11px;
+        margin: 0;
+    }
+
+
+    /**
+     * Content.
+     */
+    .entry-content .standfirst {
+        font-size: 16px;
+    }
+
+    .aside-content {
+        float: none;
+        width: 100%;
+        margin: 0 0 15px;
+        padding: 10px;
+        border: 1px solid #eaeaea;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .site-content table td,
+    .site-content table th {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 5px;
+    }
+
+    .site-content thead th,
+    .site-content thead td {
+        font-size: 11px;
+    }
+
+    /* Remove grid columns. */
+    .row-fluid [class*="span"] {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .tabs .tabs-menu li a b {
+        display: inline;
+    }
+
+    .tabs .tabs-menu li a span {
+        display: none;
+    }
+
+    /* Remove columns from service list */
+    .service .service-content {
+        font-size: 16px;
+    }
+
+    .service .service-content {
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service .service-name {
+        font-size: 30px;
+    }
+
+    .page-title, .entry-title {
+        font-size: 30px;
+        text-indent: 0;
+    }
+
+    .alignright,
+    .alignleft {
+        margin: 0;
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    #respond label {
+        position: static;
+        width: auto;
+    }
+
+    #respond p input {
+        float: none;
+        margin: 0;
+    }
+
+    #respond p input[type="text"] {
+        width: 100% !important;
+    }
+
+    .page-contacts .contact-details {
+        border-left: 0 none;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .other-projects {
+        display: none;
+    }
+
+    .portfolio-navigation .back-portfolio {
+        float: none;
+    }
+
+}
+
+
+@media screen and (max-height: 620px) and (min-width: 768px) {
+
+    .portfolio-navigation .navigation {
+        border-top: 0 none;
+    }
+
+    .portfolio-navigation .navigation h3 {
+        display: none;
+    }
+
+    .portfolio-navigation .other-projects {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-height: 320px) {
+
+    .slide .info .slide-subtitle,
+    .slide .info .description,
+    .slide .info .decoration {
+        display: none;
+    }
+    .slide .info .slide-title {
+        margin: 0;
+    }
+
+    .button-minimal.button-icon-right {
+        float: right;
+    }
+
+}
+
+
+
+/**
+ * High pixel ratio devices.
+ */
+@media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi) {
+
+    /**
+     * Display high-resulution logo.
+     */
+    .logo {
+        display: none;
+    }
+
+    .logo-no-retina,
+    .logo-retina {
+        display: inline-block;
+    }
+
+    .default-logo {
+        background-image: url(../images/logo@2x.png);
+        background-size: 100%;
+    }
+
+    #sharrre-project .icon,
+    .btn-appreciate .icon {
+        background-image: url(../images/share-icons@2x.png);
+        background-size: 100%;
+    }
+
+    #sharrre-project .icon {
+        background-position: 0 -28px;
+    }
+
+    .wrap-avatar .avatar-128 {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+    }
+
+    .wrap-avatar .avatar-64 {
+        display: none;
+    }
+
+    .horizontal-posts .entry-date,
+    .sep {
+        background-image: url(../images/slash@2x.png);
+        background-size: auto 100%;
+    }
+
+}

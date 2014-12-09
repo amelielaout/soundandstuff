@@ -1,0 +1,253 @@
+
+#fluxus-portfolio-project-template {
+    display: none;
+}
+
+#fluxus-portfolio-no-projects th {
+    text-align: center;
+}
+
+.fluxus-portfolio-add-container {
+    padding: 4px 0 10px;
+}
+
+.fluxus-portfolio-add-container label {
+    padding: 3px 5px 0 0;
+}
+
+.fluxus-portfolio-add-container .button {
+    margin: 0 0 0 3px;
+}
+
+.fluxus-portfolio-add-container select {
+    width: 200px;
+}
+
+#fluxus-portfolio-project-table .col-image {
+    width: 130px;
+}
+
+#fluxus-portfolio-project-table .actions {
+    width: 130px;
+}
+
+#fluxus-portfolio-project-table .drag {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../../images/wp-admin/move.png);
+    position: relative;
+    top: 3px;
+    left: 5px;
+    cursor: move;
+    margin: 0 20px 0 0;
+}
+
+.fluxus-portfolio-project-remove {
+    color: #f00;
+    border-bottom: 1px solid #f00;
+}
+
+.fluxus-portfolio-project-remove:hover {
+    background: #f00;
+    color: #fff;
+    text-shadow: none;
+}
+
+/**
+ * Project Media
+ */
+
+#fluxus-project-media .inside,
+#fluxus-projects .inside {
+    margin: 0;
+    padding: 0;
+}
+
+.fluxus-admin-meta-box .global-controls {
+    padding: 10px;
+    overflow: hidden;
+}
+
+    .fluxus-admin-meta-box .global-controls a {
+        margin: 0 10px 0 0;
+    }
+
+    .fluxus-admin-meta-box .global-controls select {
+        padding: 4px;
+    }
+
+.fluxus-items-container {
+    background: #dedede;
+}
+
+.fluxus-item {
+    position: relative;
+    padding: 10px;
+    border-top: 1px solid #dfdfdf;
+    background: #F8F8F8;
+}
+
+    .fluxus-item .item-overview {
+        padding: 0 0 0 140px;
+        min-height: 120px;
+    }
+
+    .fluxus-item .item-overview .details {
+        position: relative;
+        padding: 0 40px 25px 0;
+        min-height: 95px;
+    }
+
+    .fluxus-item .item-overview .fluxus-drag {
+        position: absolute;
+        right: 10px;
+        left: auto;
+        top: 50%;
+        margin: -8px 0 0 0;
+    }
+
+    .fluxus-item .item-overview .media-preview {
+        position: absolute;
+        background-color: #eee;
+        background-size: cover;
+        background-position: center center;
+        left: 10px;
+        top: 10px;
+        width: 120px;
+        height: 120px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) inset,
+                    0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+    }
+
+    .fluxus-item .item-overview .media-preview:before {
+        content: ' ';
+        width: 44px;
+        height: 39px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -22px 0 0 -21px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .fluxus-item .item-overview .media-preview.unknown-icon:before {
+        background-image: url(../../images/wp-admin/video.png);
+    }
+    .fluxus-item .item-overview .media-preview.youtube-icon:before {
+        background-image: url(../../images/wp-admin/youtube.png);
+    }
+
+    .fluxus-item .item-overview .media-preview.vimeo-icon:before {
+        background-image: url(../../images/wp-admin/vimeo.png);
+    }
+
+    .fluxus-item .item-overview .item-title,
+    .fluxus-item .item-overview .item-type {
+        color: #777777;
+        font-size: 12px;
+        font-weight: bold;
+        text-shadow: 0 1px 0 #FFFFFF;
+        text-transform: uppercase;
+    }
+
+        .fluxus-item .item-overview .item-type .unpublished,
+        .fluxus-item .item-overview .item-type .featured {
+            text-transform: none;
+            font-weight: normal;
+        }
+
+    .fluxus-item .item-overview .item-filename {
+        font-weight: bold;
+        color: #464646;
+        word-wrap: break-word;
+    }
+
+    .fluxus-item .item-overview .item-description {
+        color: #999;
+    }
+
+    .fluxus-item .item-overview .item-actions {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .fluxus-item .item-overview .item-actions a {
+        text-decoration: none;
+        float: left;
+        margin: 0 15px 0 0;
+    }
+
+    .fluxus-item.ui-sortable-helper {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        border: 1px solid #ccc;
+    }
+
+.fluxus-item .item-edit {
+    padding: 10px;
+    margin: 10px 0 0 0;
+    background: #F1F1F1;
+    border: 1px dashed #DFDFDF;
+    display: none;
+}
+
+    .fluxus-item .item-edit .control-group {
+        margin: 0 0 10px 0;
+        line-height: 25px;
+        clear: both;
+        overflow: hidden;
+    }
+
+    .fluxus-item .item-edit .control-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .fluxus-item .item-edit .control-group label,
+    .fluxus-item .item-edit .control-group .control-title {
+        width: 20%;
+        float: left;
+    }
+
+    .fluxus-item .item-edit .control-group .control {
+        float: left;
+        width: 40%;
+        margin: 0 10px 0 0;
+    }
+
+        .fluxus-item .item-edit .control-group .control .value {
+            color: #464646;
+            font-weight: bold;
+            word-wrap: break-word;
+            margin: 0 10px 0 0;
+        }
+
+        .fluxus-item .item-edit .control-group .control textarea {
+            width: 100%;
+            height: 80px;
+            padding: 4px;
+            line-height: 18px;
+        }
+
+        .fluxus-item .item-edit .control-group .control input[type="checkbox"] {
+            margin-top: -2px;
+        }
+
+    .fluxus-item .item-edit .control-group .control-info {
+        padding: 0 0 0 10px;
+        line-height: 18px;
+        padding: 4px 0 0 0;
+        float: left;
+        width: 36%;
+    }
+
+    .fluxus-item .btn-delete {
+        color: #BC0B0B;
+        float: right;
+    }
+
+    .fluxus-item .btn-delete:hover {
+        color: red;
+    }
+
+

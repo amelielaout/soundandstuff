@@ -1,0 +1,118 @@
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+pre {
+    background: #f9f9f9;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 13px;
+    line-height: 1.3;
+    margin-bottom: 1.6em;
+    padding: 1.6em;
+    overflow: auto;
+    max-width: 100%;
+    color: #666;
+    border: 1px dashed #ccc;
+    white-space: pre-wrap;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+    clear: both;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.5em 0 .5em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3125em;
+}
+
+h3 {
+    font-size: 1.125em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: .875em;
+}
+
+h6 {
+    font-size: .75em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+blockquote {
+    padding: 1.5em 0 0;
+    margin: 0 0 1.5em;
+    padding: 0 10px 0 40px;
+    color: #555;
+    font-size: 14px;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+cite {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ccc;
+    text-decoration: none;
+    border: 0 none;
+    font-style: normal;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    text-transform: uppercase;
+}
+
+table thead td,
+table thead th {
+    font-weight: 700;
+}
+
+table td,
+table th {
+    border: 1px solid #eaeaea;
+    padding: 6px 15px;
+}
+
+table tfoot {
+    color: #999;
+}
+
+.wp-caption.alignleft {
+    margin-right: 15px;
+}
+
+.wp-caption.alignright {
+    margin-left: 15px;
+}

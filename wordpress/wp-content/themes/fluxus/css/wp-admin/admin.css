@@ -1,0 +1,121 @@
+
+.fluxus-meta-field:before,
+.fluxus-meta-field:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.fluxus-meta-field:after {
+    clear: both;
+}
+
+.fluxus-meta-group h2 {
+    margin: 20px 0 0 0 !important;
+    font-size: 12px !important;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.fluxus-meta-group .description {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 10px 0 0 0;
+}
+
+.fluxus-table {
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+
+.fluxus-table td,
+.fluxus-table th {
+    border: 1px solid #DFDFDF;
+    padding: 5px 10px;
+}
+
+.fluxus-table thead td,
+.fluxus-table thead th {
+    font-weight: bold;
+    background: #F1F1F1;
+}
+
+.fluxus-table tbody td,
+.fluxus-table tbody th {
+    background: #F9F9F9;
+    vertical-align: top;
+}
+
+.fluxus-table input,
+.fluxus-table textarea {
+    width: 100%;
+}
+
+
+.fluxus-meta-field {
+    margin: 0 0 10px;
+    padding: 10px 0 0 0;
+}
+
+.fluxus-meta-field label {
+    width: 19%;
+    display: block;
+    float: left;
+    padding: 3px 0 0 0;
+    margin: 0 1% 0 0;
+}
+
+.fluxus-meta-field .field {
+    width: 48%;
+    margin: 0 2% 0 0;
+    float: left;
+}
+
+.fluxus-meta-field .notes {
+    width: 30%;
+    float: left;
+    padding: 3px 0 0 0;
+}
+
+.fluxus-meta-field .notes .group-notes {
+    position: absolute;
+}
+
+.fluxus-meta-field input {
+    float: left;
+}
+
+.fluxus-meta-field input[type="text"],
+.fluxus-meta-field select {
+    width: 200px;
+}
+.fluxus-meta-field textarea {
+    width: 100%;
+}
+
+.fluxus-meta-field input.input-url {
+    width: 100%;
+}
+
+.fluxus-message {
+    background: #FCF6E3;
+    border: 1px solid #EDE3C8;
+    border-radius: 3px;
+    margin: 15px 0;
+}
+
+.fluxus-message-contents {
+    padding: 7px 10px;
+}
+
+.fluxus-drag {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../../images/wp-admin/move.png);
+    position: relative;
+    top: 3px;
+    left: 5px;
+    cursor: move;
+}
+

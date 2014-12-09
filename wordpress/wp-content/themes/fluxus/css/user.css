@@ -1,0 +1,9 @@
+/**
+ * Add your modifications here.
+ */
+
+#main .slide .info,
+#main .slider-arrow-right,
+#main .slider-arrow-left {
+    opacity: 1;
+}

@@ -1,0 +1,1093 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluxus\n"
+"POT-Creation-Date: 2013-03-11 01:57-0000\n"
+"PO-Revision-Date: 2013-03-11 01:57-0000\n"
+"Last-Translator: inTheme <contact@inthe.me>\n"
+"Language-Team: inTheme <contact@inthe.me>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /www/fluxus/source\n"
+
+#: /www/fluxus/source/404.php:70
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: /www/fluxus/source/404.php:73
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: /www/fluxus/source/comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: /www/fluxus/source/comments.php:51
+msgid "Older Comments"
+msgstr ""
+
+#: /www/fluxus/source/comments.php:52
+msgid "Newer Comments"
+msgstr ""
+
+#: /www/fluxus/source/comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: /www/fluxus/source/content-page.php:42 /www/fluxus/source/image.php:41
+msgid "Pages:"
+msgstr ""
+
+#: /www/fluxus/source/content-page.php:43
+#: /www/fluxus/source/content-single.php:105 /www/fluxus/source/image.php:45
+#: /www/fluxus/source/inc/template-tags.php:265
+#: /www/fluxus/source/inc/template-tags.php:305
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:241
+msgid "Edit"
+msgstr ""
+
+#: /www/fluxus/source/content-single.php:52
+#, php-format
+msgid "posted in %s"
+msgstr ""
+
+#: /www/fluxus/source/content-single.php:102
+msgid "tagged with"
+msgstr ""
+
+#: /www/fluxus/source/content.php:33
+#, php-format
+msgid "Read more about %s"
+msgstr ""
+
+#: /www/fluxus/source/content.php:78
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: /www/fluxus/source/content.php:88
+msgid "Sticky post"
+msgstr ""
+
+#: /www/fluxus/source/footer.php:35
+#, php-format
+msgid "Use arrows %s for navigation"
+msgstr ""
+
+#: /www/fluxus/source/functions.php:126
+msgid "Header Primary Menu"
+msgstr ""
+
+#: /www/fluxus/source/functions.php:127
+msgid "Header Secondary Menu"
+msgstr ""
+
+#: /www/fluxus/source/functions.php:128
+msgid "Footer Primary Menu"
+msgstr ""
+
+#: /www/fluxus/source/header.php:34
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /www/fluxus/source/header.php:87
+msgid "Menu"
+msgstr ""
+
+#: /www/fluxus/source/no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: /www/fluxus/source/no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: /www/fluxus/source/no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: /www/fluxus/source/no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: /www/fluxus/source/searchform.php:10
+msgid "Search"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-blog.php:19
+msgid "Search Results For"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-blog.php:29
+#: /www/fluxus/source/sidebar-blog.php:31
+msgid "Category Archives"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-blog.php:33
+msgid "Author Archives"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-blog.php:35
+msgid "Daily Archives"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-blog.php:37
+msgid "Monthly Archives"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-blog.php:39
+msgid "Yearly Archives"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-blog.php:41
+msgid "Archives"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-portfolio-single.php:45
+msgid "Project Info"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-portfolio-single.php:47
+msgid "Visit website"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-post.php:27
+#: /www/fluxus/source/single-fluxus_portfolio.php:204
+#: /www/fluxus/source/template-full-page-slider.php:37
+msgid "Previous"
+msgstr ""
+
+#: /www/fluxus/source/sidebar-post.php:31
+#: /www/fluxus/source/single-fluxus_portfolio.php:208
+#: /www/fluxus/source/template-full-page-slider.php:38
+msgid "Next"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:44
+msgid "Please wait..."
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:115
+msgid "Like this project?"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:120
+#: /www/fluxus/source/lib/appreciate.php:164
+msgid "Appreciate"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:121
+msgid "Appreciated"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:128
+msgid "Share this project"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:135
+msgid "Or"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:143
+msgid "Other projects"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:185
+msgid "Current"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:187
+#: /www/fluxus/source/template-full-page-slider.php:121
+msgid "View"
+msgstr ""
+
+#: /www/fluxus/source/single-fluxus_portfolio.php:212
+msgid "Back to portfolio"
+msgstr ""
+
+#: /www/fluxus/source/template-contacts.php:26
+msgid "View map"
+msgstr ""
+
+#: /www/fluxus/source/template-contacts.php:36
+#: /www/fluxus/source/template-contacts.php:111
+msgid "Send message"
+msgstr ""
+
+#: /www/fluxus/source/template-contacts.php:104
+msgid "Close"
+msgstr ""
+
+#: /www/fluxus/source/template-portfolio.php:70
+msgid "View Work"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:71
+msgid "Background position"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:75
+msgid "Top"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:76
+#: /www/fluxus/source/inc/background.php:109
+#: /www/fluxus/source/inc/slider.php:403
+msgid "Center"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:77
+msgid "Bottom"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:87
+#: /www/fluxus/source/inc/slider.php:377
+#: /www/fluxus/source/inc/post-formats/quote.php:92
+msgid "Text color"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:90
+#: /www/fluxus/source/inc/slider.php:379
+#: /www/fluxus/source/inc/post-formats/quote.php:94
+msgid "Black"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:91
+#: /www/fluxus/source/inc/slider.php:380
+#: /www/fluxus/source/inc/post-formats/quote.php:95
+msgid "White"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:96
+msgid "Dim background"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:106
+msgid "Content position"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:110
+#: /www/fluxus/source/inc/slider.php:404
+msgid "Custom"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:115
+msgid "Custom position"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:125
+#: /www/fluxus/source/inc/background.php:126
+msgid "not set"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:131
+#: /www/fluxus/source/inc/slider.php:408
+msgid "Set custom position"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:176
+msgid "Bage With Background Options"
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:220
+#: /www/fluxus/source/inc/slider.php:204
+msgid "Drag the box to place it anywhere on the page. Then click save."
+msgstr ""
+
+#: /www/fluxus/source/inc/background.php:222
+#: /www/fluxus/source/inc/slider.php:206
+msgid "Save & Close"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:50
+msgid "Google Maps API"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:55
+#, php-format
+msgid "Google Maps API key is needed for maps to work. Get %s."
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:60
+msgid "Map center position"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:63
+msgid "Latitude"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:69
+#, php-format
+msgid ""
+"Latitude and longitude of the point that will be in the center of the map. "
+"Use %s to get the coordinates."
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:74
+msgid "Longitude"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:81
+msgid "Map icon"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:83
+#: /www/fluxus/source/inc/contacts.php:89
+msgid "Icon latitude"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:95
+msgid "Icon image url"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:102
+msgid "Contacts information"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:106
+#: /www/fluxus/source/inc/slider.php:302 /www/fluxus/source/inc/slider.php:343
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:390
+#: /www/fluxus/source/inc/post-formats/link.php:93
+msgid "Title"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:107
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:391
+msgid "Content"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:125
+msgid "To add contact information enter the title and content fields below."
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:134
+msgid "Add contact information"
+msgstr ""
+
+#: /www/fluxus/source/inc/contacts.php:213
+msgid "Contacts Page"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:44
+msgid "General Settings"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:49
+msgid "Custom logo"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:52
+msgid "The maximum width is 190px, the recommended height is under 40px."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:56
+msgid "Custom logo (retina)"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:59
+msgid ""
+"Here you should upload two times bigger version of your logo. It will be "
+"displayed on high resolution devices (such as new iPads and iPhones). This "
+"will make logo look crisp."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:63
+msgid "Footer Copyright"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:64
+msgid "Copyright displayed in the bottom. You can use HTML tags."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:72
+msgid "Favicon"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:73
+msgid "Upload a 16x16 sized png/gif image that will be used as a favicon."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:79
+msgid "Facebook Image"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:80
+msgid ""
+"Image used on Facebook timeline when someone likes the website. If visitor "
+"likes a content page (blog post / gallery) then image will be taken "
+"automatically from content. Should be at least 200x200 in size."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:86
+msgid "Site Description"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:87
+msgid ""
+"Give a short description of your website. This is visible in search results "
+"and when sharing your website. The description will not be used on content "
+"pages like blog post or portfolio project."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:93
+msgid "Disable Fluxus Meta Tags"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:94
+msgid ""
+"By default Fluxus theme will create page description and page thumbnail meta "
+"tags. If you use any SEO plugin, then you should disable Fluxus meta tag "
+"generation."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:101
+msgid "Tracking code"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:103
+msgid ""
+"Paste your Google Analytics or any other tracking code. Important: do not "
+"include &lt;script&gt;&lt;/script&gt; tags."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:111
+msgid "Social"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:116
+msgid "Enable share buttons"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:117
+msgid "Show social sharing buttons in the footer."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:141
+msgid "Sharing Networks"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:142
+msgid "Select social networks on which you want to share your website."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:151
+msgid "Enable social networks"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:152
+msgid "Show social network links in the footer."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:161
+msgid "URL"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:173
+msgid "Style"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:192
+msgid "Stylesheet"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:201
+msgid "Custom CSS"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:203
+msgid ""
+"Add your custom CSS rules here. Note: it is better to use user.css file "
+"(located in your theme's css directory) to add custom rules."
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:350
+msgid "Share"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:378
+msgid "Share this page"
+msgstr ""
+
+#: /www/fluxus/source/inc/options.php:405
+#, php-format
+msgid "Connect on %s"
+msgstr ""
+
+#: /www/fluxus/source/inc/shortcodes.php:233
+msgid "Untitled"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:27
+msgid "Slider"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:270
+msgid ""
+"Slider only works with pages. Create a page with Full Page Slider template "
+"and visit this tab again."
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:280
+msgid ""
+"Current page template is not set to Full Page Slider. To make Full Page "
+"Slider visible set the current page's template to Full Page Slider."
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:291
+msgid ""
+"No images were uploaded to current page. Please go to Insert Media tab and "
+"upload new images to create a Slider."
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:301
+msgid "Media"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:303
+msgid "Order"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:304
+msgid "Actions"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:323
+msgid "Not set"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:327 /www/fluxus/source/inc/slider.php:430
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:255
+msgid "Published"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:328
+msgid "Unpublished"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:336
+msgid "Hide details"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:336
+msgid "Show details"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:336
+msgid "Show Details"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:347
+msgid "Subtitle"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:349
+msgid "eg. featured project"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:352
+#: /www/fluxus/source/inc/post-formats/link.php:99
+msgid "Description"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:356
+msgid "Custom link"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:360
+msgid "Link to portfolio"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:373
+msgid "Link title"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:382
+msgid "Choose according to the picture brightness"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:385
+msgid "Info box position"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:411
+msgid "Image scaling"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:414
+msgid "Crop Bottom"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:415
+msgid "Crop Top and Bottom"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:416
+msgid "Crop Top"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:417
+msgid "Fit Image"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:426
+msgid "Dim Background"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:435
+msgid "Save changes"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:436
+msgid "Saving..."
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:436
+msgid "Saved!"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:436
+msgid "Failed"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:472
+msgid "Slider Options"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:477
+msgid "Auto Slideshow"
+msgstr ""
+
+#: /www/fluxus/source/inc/slider.php:482
+msgid "Slide Change Interval"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:128
+msgid "page"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:135
+#: /www/fluxus/source/inc/template-tags.php:137
+msgid "Newer entries"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:143
+#: /www/fluxus/source/inc/template-tags.php:145
+msgid "Older entries"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:148
+msgid "jump to page"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:214
+msgid "Further reading"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:221
+#: /www/fluxus/source/inc/template-tags.php:225
+msgid "Older post"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:232
+#: /www/fluxus/source/inc/template-tags.php:236
+msgid "Newer post"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:263
+msgid "Pingback:"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:288
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:292
+msgid "Post author"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:301
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:311
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:330
+#: /www/fluxus/source/inc/template-tags.php:345
+#, php-format
+msgid "<time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time>"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:360
+#, php-format
+msgid ""
+"<span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n"
+"\" href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</a></span></span>"
+msgstr ""
+
+#: /www/fluxus/source/inc/template-tags.php:362
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: /www/fluxus/source/inc/tweaks.php:29
+msgid "Continue reading"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets.php:42
+msgid "General Sidebar"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets.php:48
+msgid "Blog Sidebar"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets.php:55
+msgid "Blog Post Sidebar"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets.php:62
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets.php:69
+msgid "Portfolio Project Sidebar"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-grid-portfolio-admin.php:10
+msgid "Grid Options"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-grid-portfolio-admin.php:23
+msgid "Grid size"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:29
+msgid "Project Options"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:39
+msgid "Project Media"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:221
+msgid "Add Image"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:222
+msgid "Add Video"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:224
+msgid "Please save this project first."
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:230
+msgid "Add Images to Project"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:231
+msgid "Add Image(s)"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:235
+msgid "Select Screenshot"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:239
+msgid "Image"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:240
+#: /www/fluxus/source/inc/post-formats/video.php:136
+msgid "Video"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:242
+msgid "Featured"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:243
+msgid ""
+"Featured item is used to represent the project on horizontal and grid "
+"portfolios."
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:244
+msgid "Image Description"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:245
+msgid ""
+"Description is displayed on top of the image. You can use HTML to include "
+"links."
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:246
+msgid "Video embed code"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:247
+#, php-format
+msgid "Enter YouTube or Vimeo embed code. The code should look like this %s."
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:248
+msgid "Video screenshot"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:249
+msgid "Change Screenshot"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:250
+msgid ""
+"If video is featured, the screenshot will be used on horizontal and grid "
+"portfolio pages."
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:251
+msgid "Save"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:252
+msgid "Cancel"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:253
+msgid "Remove"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:254
+msgid "Not Published"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:256
+msgid ""
+"Not published items do not appear on project page. Note that if an item is "
+"featured, but not published, it will appear only in project list pages."
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:374
+msgid "Project Subtitle"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:380
+msgid "Project External Link"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:386
+msgid "Project information"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:409
+msgid "To add project information enter the title and content fields below."
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/class-portfolio-project-admin.php:418
+msgid "Add project information"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/portfolio.php:68
+msgid " Portfolio"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/portfolio.php:69
+msgid "Project"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/portfolio.php:88
+msgid " Project Media"
+msgstr ""
+
+#: /www/fluxus/source/inc/portfolio/portfolio.php:89
+msgid "Project Media File"
+msgstr ""
+
+#: /www/fluxus/source/inc/post-formats/link.php:84
+msgid ""
+"Links are displayed above post content. If a post has a featured image set, "
+"then the link will be overlayed on top of the image."
+msgstr ""
+
+#: /www/fluxus/source/inc/post-formats/link.php:87
+msgid "Link URL"
+msgstr ""
+
+#: /www/fluxus/source/inc/post-formats/link.php:135
+msgid "Link"
+msgstr ""
+
+#: /www/fluxus/source/inc/post-formats/quote.php:85
+msgid ""
+"Quotes are displayed above post content. If a post has a featured image set, "
+"then the quote will be overlayed on top of the image."
+msgstr ""
+
+#: /www/fluxus/source/inc/post-formats/quote.php:87
+#: /www/fluxus/source/inc/post-formats/quote.php:135
+msgid "Quote"
+msgstr ""
+
+#: /www/fluxus/source/inc/post-formats/quote.php:99
+msgid "Quote author"
+msgstr ""
+
+#: /www/fluxus/source/inc/post-formats/video.php:104
+msgid "Embed Code"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets/widget-project-types.php:19
+msgid "A widget that displays project types."
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets/widget-project-types.php:28
+#: /www/fluxus/source/inc/widgets/widget-project-types.php:72
+msgid "Project Types"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets/widget-project-types.php:53
+msgid "Project Type"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets/widget-project-types.php:134
+msgid "All"
+msgstr ""
+
+#: /www/fluxus/source/inc/widgets/widget-project-types.php:160
+msgid "This widget has no options."
+msgstr ""
+
+#: /www/fluxus/source/lib/appreciate.php:165
+msgid "Appreciated!"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-framework.php:170
+#: /www/fluxus/source/options-framework/options-framework.php:369
+msgid "Theme Options"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-framework.php:238
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-framework.php:270
+msgid "Default options restored."
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-framework.php:318
+msgid "Options saved."
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-medialibrary-uploader.php:129
+msgid "Upload"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-medialibrary-uploader.php:152
+msgid "View File"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-medialibrary-uploader.php:289
+msgid "Gallery"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-medialibrary-uploader.php:289
+msgid "Previously Uploaded"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:253
+msgid "No Repeat"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:254
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:255
+msgid "Repeat Vertically"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:256
+msgid "Repeat All"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:269
+msgid "Top Left"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:270
+msgid "Top Center"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:271
+msgid "Top Right"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:272
+msgid "Middle Left"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:273
+msgid "Middle Center"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:274
+msgid "Middle Right"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:275
+msgid "Bottom Left"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:276
+msgid "Bottom Center"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:277
+msgid "Bottom Right"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:290
+msgid "Scroll Normally"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:291
+msgid "Fixed in Place"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:365
+msgid "Normal"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:366
+msgid "Italic"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:367
+msgid "Bold"
+msgstr ""
+
+#: /www/fluxus/source/options-framework/options-sanitize.php:368
+msgid "Bold Italic"
+msgstr ""
