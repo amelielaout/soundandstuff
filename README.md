@@ -20,22 +20,18 @@ Installation logiciels
 Répartition des tâches
 
 - Justine Lebègue: 
-recherches de thème
-installation et retouche du thème
+recherches de thème + installation et retouche du thème
 
 - Justine Lesnes:
 recherches de thème
 
 - Orane:
-maquette site 
-création background
+maquette thème sur photoshop + création background sur illustrator
 
 
 - Ugo:
-programmation thème
-modification du thème
+maquette thème en html + modification du thème
 
 
 - Amélie: 
-Charte graphique
-installation plugin facebook - twitter
+Charte graphique + installation plugin facebook - twitter
