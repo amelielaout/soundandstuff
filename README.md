@@ -27,7 +27,8 @@ installation et retouche du thème
 recherches de thème
 
 - Orane:
-
+maquette site 
+création background
 
 
 - Ugo:
