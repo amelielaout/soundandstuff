@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+h2{
+	font-size:30px;
+	margin-top:0px;
+}
+
+p{
+	color:#00000;
+}
+
+#header h1{
+	margin-left:2%;
+	font-size:42px;
+	font-weight:bolder;
+	color:#36A9E0;
+	}
+
+#contenant{
+	height:800px;
+	width:2500px;
+	background-color:#36A9E0;
+	padding-bottom:30px;
+	}
+		
+#header{
+	height:50px;
+	background-color:#FFFFFF;
+	}
+	
+	
+#article{
+	float:left;
+	margin-left:50px;
+	margin-top:20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	width:15%;
+	height:450px;
+	padding:6px;
+	border-radius:15px;
+	}
+	
+#article2{
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+	background-color:#FFFFFF;
+	opacity:1;
+	width:20%;
+	height:380px;
+	padding:6px;
+	border-radius:15px;
+	}
+	
+#article3{
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+	background-color:#FFFFFF;
+	width:15%;
+	height:500px;
+	padding:6px;
+	border-radius:15px;
+	background-color: rgba(255, 255, 255, 0.5);
+	}
+	
+
+
+
+
+
