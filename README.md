@@ -10,14 +10,14 @@ groupe:
 - Amélie Laoût: amelielaout (coordinatrice de projet)
 
 
-Installation Wordpress
-
+Installation logiciels
 - réseau FTP Hostinger: Justine Lebègue
 - Filezilla et création de la base de données sur Hostinger: Amélie Laoût
 - Wordpress: Justine Lebègue
 
 
-Répartition des tâches:
+
+Répartition des tâches
 
 - Justine Lebègue: 
 recherches de thème
@@ -31,7 +31,8 @@ recherches de thème
 
 
 - Ugo:
-programmation
+programmation thème
+modification du thème
 
 
 - Amélie: 
